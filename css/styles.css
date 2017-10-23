@@ -38,3 +38,41 @@ div#dinner{
 	background-position: center center;
 
 }
+div#rowone{
+	
+	background-image: url("../ip2/assets/fastFood1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 50%;
+
+}
+div#rowtwo{
+	
+	background-image: url("../ip2/assets/fastFood2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 50%;
+
+}
+div.box{
+	    height: 75%;
+    width: 60%;
+    padding: 36px;
+    margin: 20px auto;
+    border: solid 3px #eff1f1;
+    border-radius: 10px;
+    float: right;
+}
+
+
+button#viewgallery{
+	    padding: 9px;
+    background-color: white;
+    border: 1px solid #e67440;
+    color: #e67440;
+    width: 50%;
+    font-weight: bolder;
+    border-radius: 3px;
+}
