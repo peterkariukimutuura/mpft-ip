@@ -1,0 +1,40 @@
+body{
+
+}
+
+section.sectionone{
+	min-height: 400px;
+	background-image: url("../ip2/assets/backgrounds/landing.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+section.sectiontwo{
+	height: 200px;
+
+}
+div#breakfast{
+	
+	background-image: url("../ip2/assets/foodtop/breakfast.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+div#lunch{
+	
+	background-image: url("../ip2/assets/foodtop/lunch.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+div#dinner{
+	
+	background-image: url("../ip2/assets/foodtop/dinner.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Anita's Kitchen
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+	<section class="sectionone" style="text-align:center;">
+		<div class="row">
+		</div>
+		<div class="row">
+			<img src="ip2/assets/logoBig.png" style="margin:0px auto;">
+		</div>
+		<div class="row" style="text-align:center; color:#fff;">
+			<span style="font-size:22px; width: 100%;">
+				<span>We Provide The Best Food <br>At the </span><b>Right Price</b> 
+			</span>
+			
+			
+		</div>
+		
+
+	</section>
+
+	<!-- this section class sectionone had a height of 400px: -->
+	<!-- note i'm using class not id that changes how i'm referencing it on my styles.css -->
+	<!-- end of section one  -->
+
+
+	<section class="sectiontwo">
+		<div class="row" style="height:100%;">
+			<div class="col-md-3" id="firstcolumn">
+				<!-- 
+				this is the first column, here we will use bootstrap div class row and also inline css styling to divide this column by 
+				two sections as per our exercise
+				 undersatnding this inline css better (style="min-height:50%; background-color:white; color:grey;") is the same as this
+				style="
+				min-height:50%;
+				 background-color:white;
+				  color:grey;"
+
+
+
+				 -->
+				<div class="row" style="height:50%; background-color:white; color:grey;">
+					<div class="container">
+						<center><h3 style="margin-top:10%;">Happy Hour</h3></center>
+					</div>
+					
+				</div>
+				<div class="row" style="height:50%; background-color:#f5522d; color:white;">
+					<div class="container">
+						<center><h3 style="margin-top:10%;">Party Time</h3></center>
+					</div>
+					
+				</div>
+
+			</div>
+			<div class="col-md-3" id="breakfast">
+
+			</div>		
+			<div class="col-md-3" id="lunch">
+
+			</div>	
+			<div class="col-md-3" id="dinner">
+
+			</div>	
+		</div>
+
+	</section>
+
+	<!--***starting comments***
+	 inside section two i've added a div class row , then inside the row i've used the bootstrap grid system to get four divs each spanning only three column, and to be able to add the background images of each column, i've added id to each : breackfast ,lunch and dinner
+	Note: The syntax of adding id to the divs is different as compared to that of adding class :
+				<div class="col-md-3" id="dinner">
+
+			    </div>	
+
+			    i can now use this id s in the stylesheet to target a specific div in this format:
+			    remember the hashtag symbol denotes ID and the DOT symbol denotes a class:
+			    Also remember to include this braces signs in your css syntax {},the opening and closing braces
+
+			    ****below i'm demonstrating use of id*****
+
+			    div#lunch{
+					css property:value;
+			    }
+
+				****below i'm demonstrating use of class in a section*****
+
+				section.sectionone{
+					min-height: 400px;
+					background-image: url("../ip2/assets/backgrounds/landing.jpg");
+					background-size: cover;
+					background-repeat: no-repeat;
+					background-position: center center;
+
+				}
+
+
+
+
+
+		***ending comments****-->
+		<!-- this section class two will have  a height of 300px; -->
+	<!-- end of section two  -->
+
+	<section class="sectionthree">
+
+	</section>
+
+	<!-- end of section three  -->
+
+	<section class="sectionfour">
+
+	</section>
+
+	<!-- end of section four  -->
+
+	<section class="sectionfive">
+
+	</section>
+
+	<!-- end of section five  -->
+
+	<section class="sectionsix">
+
+	</section>
+
+	<!-- end of section six  -->
+		<section class="sectionseven">
+
+	</section>
+
+	<!-- end of section seven  -->
+		<section class="sectioneigth">
+
+	</section>
+
+	<!-- end of section eigth  -->
+</body>
+</html>
