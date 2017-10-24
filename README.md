@@ -29,7 +29,6 @@
 
 ## Support and contact details
 
- Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code. 
 
  If you run into any issues on this project call me via +254712169695b or email me at kariukipeter30@gmail.com , also both negative and positive feedbacks are highly welcomed. issa learning process 
 
