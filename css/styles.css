@@ -11,7 +11,7 @@ section.sectionone{
 
 }
 section.sectiontwo{
-	height: 200px;
+	min-height: 200px;
 
 }
 div#breakfast{
@@ -57,7 +57,7 @@ div#rowtwo{
 
 }
 div.box{
-	    height: 75%;
+	 min-height: 75%;
     width: 60%;
     padding: 36px;
     margin: 20px auto;
@@ -66,7 +66,12 @@ div.box{
     float: right;
 }
 
-
+div#fastfoods{
+	margin: 50px auto;
+	margin-left: 0px;
+	 color:grey ; 
+	 width:70%;
+}
 button#viewgallery{
 	    padding: 9px;
     background-color: white;
@@ -76,7 +81,7 @@ button#viewgallery{
     font-weight: bolder;
     border-radius: 3px;
 }
-div#firstcolumn{
+div#firstcolumn2{
 	background-image: url("../ip2/assets/drink1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -84,7 +89,7 @@ div#firstcolumn{
 	width: 50%;
 	height: 100%;
 }
-div#secondcolumn{
+div#secondcolumn3{
 	background-image: url("../ip2/assets/drink2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -101,10 +106,67 @@ section.sectionfive{
 	background-position: center;
 
 }
+div#drinks{
+	margin: 50px auto;
+	margin-left: 0px;
+	 color:grey ;
+	  width:70%;
+	  float:right;
+	  text-align:right;
+}
+section.sectionsix{
+	padding:70px;
+}
 ul#customers{
 	list-style: none;
 }
 ul#customers li{
 	width: fit-content;
 	display: inline;
+}
+
+
+/*for small devices*/
+/*for responsiveness: fit well on mobile phones*/
+
+@media (max-width: 425px){
+	div#firstcolumn{
+		width: 100%;
+	}
+	div.box{
+		height: 200px;
+		float: none;
+		padding: 0px;
+		width: inherit;
+	}
+	div#fastfoods{
+		text-align: center;
+		padding: 20px;
+		width: 100%;
+		margin: 20px;
+	}
+	button#viewgallery{
+		width: 70%;
+	}
+	div#drinks{
+		float: none;
+		text-align: center;
+		margin: 20px;
+		padding: 20px;
+		width: 100%;
+	}
+	section.sectionsix{
+		padding: 10px;
+		margin: 0px auto;
+		width: 90%;
+	}
+
+	ul#customers{
+		padding: 0px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+
+	}
+
+
 }
