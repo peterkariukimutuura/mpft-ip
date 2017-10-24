@@ -8,10 +8,47 @@ section.sectionone{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+	padding-top: 20px;
+	padding-bottom: 60px;
 
+}
+div.showmylinks{
+    margin-left: 80px;
+    width: 7%;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+}
+div.showmylinks:hover{
+	cursor: pointer;
+}
+div.showmylinks hr{
+margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid rgba(255, 254, 254, 0.76);
+}
+div.mylinks{
+    margin-left: 30px;
+    margin-top: 25px;
+    display: none;
+}
+div.mylinks a{
+	background: rgba(250, 235, 215, 0.23);
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: dotted;
+        font-weight: bolder;
+    color: #040315;
+
+}
+div.mylinks a:hover{
+	color: #fff;
+	    background-color: rgba(0, 0, 0, 0.32);
 }
 section.sectiontwo{
 	min-height: 200px;
+	overflow-x:hidden; 
 
 }
 div#breakfast{
@@ -252,6 +289,17 @@ div#firstcolumn2{
 div#secondcolumn3{
 	height:240px;
 
+}
+div.showmylinks{
+	display: none;
+}
+div.mylinks{
+	display: block;
+	margin-bottom: 30px;
+}
+div.mylinks a:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.32);
 }
 
 }
