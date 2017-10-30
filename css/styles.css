@@ -18,6 +18,7 @@ div.showmylinks{
     
     padding-left: 15px;
     padding-right: 15px;
+    float: left;
 }
 div.showmylinks:hover{
 	cursor: pointer;
@@ -27,11 +28,13 @@ margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
     border-top: 2px solid rgba(255, 254, 254, 0.76);
+
 }
 div.mylinks{
     margin-left: 30px;
-    margin-top: 25px;
+    margin-top: 12px;
     display: none;
+    float: left;
 }
 div.mylinks a{
 	background: rgba(250, 235, 215, 0.23);
@@ -57,6 +60,7 @@ div#breakfast{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+	min-height: inherit;
 
 }
 div#lunch{
@@ -65,6 +69,7 @@ div#lunch{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+	min-height: inherit;
 
 }
 div#dinner{
@@ -73,6 +78,7 @@ div#dinner{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+	min-height: inherit;
 
 }
 div#rowone{
@@ -136,7 +142,7 @@ div#secondcolumn3{
 
 }
 section.sectionfive{
-	height: 500px;
+	min-height: 500px;
 	background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -238,12 +244,18 @@ strong#menu{
 	div#firstcolumn{
 		width: 100%;
 	}
+	h4#exceptions{
+		position: absolute;
+		margin-top: 0px;
+		left: 40%;
+	}
 	div.box{
 		height: 280px;
 		float: none;
 		padding: 0px;
-		width: inherit;
+		width: 100%;
 		padding-top: 10px;
+		margin: 0px auto;
 	}
 	div#fastfoods{
 		text-align: center;
@@ -285,26 +297,44 @@ strong#menu{
 	section.sectionseven{
 		padding-top: 15%;
 	}
-div#firstcolumn2{
-	height: 240px;
-}
-div#secondcolumn3{
-	height:240px;
 
-}
-div.showmylinks{
-	display: none;
-}
-div.mylinks{
-	display: block;
-	margin-bottom: 30px;
-}
-div.mylinks a:hover {
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.32);
+	div#firstcolumn2{
+		height: 240px;
+	}
+	div#secondcolumn3{
+		height:240px;
+
+	}
+	div.showmylinks{
+		display: none;
+	}
+	div.mylinks{
+		display: block;
+		margin-bottom: 30px;
+	}
+	div.mylinks a:hover {
+	    color: #fff;
+	    background-color: rgba(0, 0, 0, 0.32);
+	}
+	ul#myTabs{
+		background-color: #c5c2bd;
+	    display: inline-grid;
+	    width: 100%;
+	}
+	ul#myTabs>li{
+		width: 100%;
+	}
+	span#spanleft,span#spanright{
+		display: none;
+	}
 }
 
 
+
+
+h5{
+	font-size: 25px;
+}
 
 
 /* karimi +karis =something awesome */
@@ -314,6 +344,18 @@ div.mylinks a:hover {
 
 
 
+			.nav-tabs>li {
+	float: left;
+    margin-bottom: -1px;
+    width: 25%;
+    font-size: 20px;
+    font-weight: 700;
+	}
+	.nav-tabs>li>a {
+    line-height: 1.42857143;
+    border-radius: 4px 4px 0 0;
+    border-right: 1px solid #fff;
+}
 	div.christine{
     text-align: center;
     font-size: 20px;
@@ -324,26 +366,25 @@ div.mylinks a:hover {
 		
 		font-weight: bold;
 	}
+
 	span#spanleft{
 		    position: absolute;
     color: red;
     font-size: 25px;
-    /* top: -5px; */
-    margin-top: 70px;
-    margin-left: -10px;
+    
+    margin-top: 20%;
+    left: 50px;
 	}
 	span#spanright{
-		    position: absolute;
+    position: absolute;
     font-size: 25px;
     color: red;
-    margin-top: 70px;
+    margin-top: -42%;
+    right: 48px;
 	}
-/* 	div#divcover{
-		background-image: url('foodsBg.jpg');
-		background-size: cover;
-		background-repeat: no-repeat;
-		padding: 50px;
-	} */
+	h5{
+		font-size: 25px;
+	}/
 
 	/* karimi +karis =something awesome */
 	/* karimi +karis =something awesome */

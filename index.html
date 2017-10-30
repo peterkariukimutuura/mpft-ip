@@ -16,45 +16,8 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="icon" href="img/peterkariukimutuura.PNG" >
 	<style type="text/css">
-			.nav-tabs>li {
-	float: left;
-    margin-bottom: -1px;
-    width: 25%;
-    font-size: 20px;
-    font-weight: 700;
-	}
-	.nav-tabs>li>a {
-    /* margin-right: 2px; */
-    line-height: 1.42857143;
-    /* border: 1px solid transparent; */
-    border-radius: 4px 4px 0 0;
-    border-right: 1px solid #fff;
-}
-	div.christine{
-    text-align: center;
-    font-size: 20px;
-    font-weight: 700;
-    color: #e2521a;
-	}
-	a{
-		
-		font-weight: bold;
-	}
-	span#spanleft{
-		    position: absolute;
-    color: red;
-    font-size: 25px;
-    /* top: -5px; */
-    margin-top: 70px;
-    margin-left: -10px;
-	}
-	span#spanright{
-    position: absolute;
-    font-size: 25px;
-    color: red;
-    margin-top: 7%;
-    right: 80px;
-	}
+
+
 	</style>
 </head>
 <body>
@@ -93,7 +56,7 @@
 
 	<section class="sectiontwo">
 		<div class="row" style="min-height:220px;">
-			<div class="col-md-3" id="firstcolumn">
+			<div class="col-md-3" id="firstcolumn" style="min-height: inherit;">
 				<!-- 
 				this is the first column, here we will use bootstrap div class row and also inline css styling to divide this column by 
 				two sections as per our exercise
@@ -106,35 +69,35 @@
 
 
 				 -->
-				<div class="row" style="height:50%; background-color:white; color:grey;">
-					<div class="container">
+				<div class="row" style="height:110px; background-color:white; color:grey;">
+					
 						<center><h3 style="margin-top:10%;">Happy Hour</h3></center>
-					</div>
+				
 					
 				</div>
-				<div class="row" style="height:50%; background-color:#f5522d; color:white;">
-					<div class="container">
+				<div class="row" style="height:110px; background-color:#f5522d; color:white;">
+					
 						<center><h3 style="margin-top:10%;">Party Time</h3></center>
-					</div>
+					
 					
 				</div>
 
 			</div>
 			<div class="col-md-3" id="breakfast">
-					<div class="container">
-						<center><i><h4 style="margin-top:30%; color:#fff;">Breakfast</h4></i></center>
-					</div>
+					
+						<center><i><h4 id="exceptions" style="margin-top:30%; color:#fff;">Breakfast</h4></i></center>
+					
 
 			</div>		
 			<div class="col-md-3" id="lunch">
-					<div class="container">
-						<center><i><h4 style="margin-top:30%; color:#fff;">Lunch</h4></i></center>
-					</div>
+					
+						<center><i><h4 id="exceptions" style="margin-top:30%; color:#fff;">Lunch</h4></i></center>
+					
 			</div>	
 			<div class="col-md-3" id="dinner">
-					<div class="container">
-						<center><i><h4 style="margin-top:30%; color:#fff;">Dinner</h4></i></center>
-					</div>
+					
+						<center><i><h4 id="exceptions" style="margin-top:30%; color:#fff;">Dinner</h4></i></center>
+					
 			</div>	
 		</div>
 
@@ -282,30 +245,34 @@ christine the brown steamming hot girl -->
 				 		<div class="tab-pane fade active in" role="tabpanel" id="home" aria-labelledby="home-tab"> 
 
 				 			<div class="row" 
-				 			style="padding: 20px;">
-				 				<span id="spanleft"><</span>
+				 			style="padding-top: 20px;">
+				 				
 				 				<div class="col-md-4">
-
+<span id="spanleft"><</span>
 				 					<div class="christine">
 				 						<img style="margin-bottom: 10px;" 
-				 						src="ip2/assets/fastfood/beefBurger.jpg" alt="">
+				 						src="ip2/assets/fastfood/chickenBurger.jpg" alt="chicken Burger">
 				 						<p>Chicken Burger</p>
 				 					</div>
 				 				</div>
 				 				<div class="col-md-4">
 									<div class="christine">
-				 						<img style="margin-bottom: 10px;" src="ip2/assets/fastfood/beefBurger.jpg" alt="">
+				 						<img style="margin-bottom: 10px;" 
+				 						src="ip2/assets/fastfood/beefBurger.jpg" 
+				 						alt="Beef Burger">
 				 						<p>Beef Burger</p>
 				 					</div>
 				 				</div>
 				 				<div class="col-md-4">
 				 					<div class="christine">
-				 						<img style="margin-bottom: 10px;" src="ip2/assets/fastfood/beefBurger.jpg" alt="">
+				 						<img style="margin-bottom: 10px;" 
+				 						src="ip2/assets/fastfood/chickenPizza.jpg" 
+				 						alt="chicken Pizza">
 				 						<p>Chicken Pizza</p>
 				 					</div>
-				 					
+				 					<span id="spanright"> > </span>
 				 				</div>
-				 				<span id="spanright"> > </span>
+				 				
 				 				
 				 			</div>
 				 		</div> 
@@ -332,11 +299,10 @@ christine the brown steamming hot girl -->
 			<!-- <div id="boxabout"> -->
 				<div class="col-md-8" style="text-align:center;">
 					<h5 style="color: #e64f30;    margin-bottom: 15px;">Our Happy Customers</h5>
-					<h6 style="    margin-bottom: 15px;">George Richard</h6>
+					<h6 style="    margin-bottom: 15px;"><strong>George Richard</strong></h6>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation 
+						Great food! Menu is awesome ,their foods are not great but <br>also in
+						the right price.I'll highly recommend them :-)
 					</p>
 					<ul id="customers">
 						<li style="font-size:25px;margin-right:3px;color: #e64f30;font-weight: bolder;"> <    </li>
@@ -353,12 +319,10 @@ christine the brown steamming hot girl -->
 					
 					<h5 style="color: #e64f30;">About Me</h5>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						 We are menu a little team of 7 members .
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				
 
 
 					</p>
