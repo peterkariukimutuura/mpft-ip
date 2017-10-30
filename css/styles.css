@@ -136,11 +136,13 @@ div#secondcolumn3{
 
 }
 section.sectionfive{
-	height: 400px;
+	height: 500px;
 	background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	padding: 50px;
+	text-align: center
 
 }
 div#drinks{
@@ -302,4 +304,48 @@ div.mylinks a:hover {
     background-color: rgba(0, 0, 0, 0.32);
 }
 
-}
+
+
+
+/* karimi +karis =something awesome */
+/* karimi +karis =something awesome */
+/* karimi +karis =something awesome */
+/* karimi +karis =something awesome */
+
+
+
+	div.christine{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #e2521a;
+	}
+	a{
+		
+		font-weight: bold;
+	}
+	span#spanleft{
+		    position: absolute;
+    color: red;
+    font-size: 25px;
+    /* top: -5px; */
+    margin-top: 70px;
+    margin-left: -10px;
+	}
+	span#spanright{
+		    position: absolute;
+    font-size: 25px;
+    color: red;
+    margin-top: 70px;
+	}
+/* 	div#divcover{
+		background-image: url('foodsBg.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding: 50px;
+	} */
+
+	/* karimi +karis =something awesome */
+	/* karimi +karis =something awesome */
+	/* karimi +karis =something awesome */
+	/* karimi +karis =something awesome */
