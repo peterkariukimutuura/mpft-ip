@@ -61,7 +61,22 @@ div#breakfast{
 	background-repeat: no-repeat;
 	background-position: center center;
 	min-height: inherit;
+	    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+div#breakfast:hover{
+	opacity: 0.7;
+	transition: 1s;
+}
+div#lunch:hover{
+	opacity: 0.7;
+	transition: 1s;
+}
+div#dinner:hover{
+	opacity: 0.7;
+	transition: 1s;
 }
 div#lunch{
 	
@@ -70,6 +85,9 @@ div#lunch{
 	background-repeat: no-repeat;
 	background-position: center center;
 	min-height: inherit;
+	    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 div#dinner{
@@ -79,6 +97,9 @@ div#dinner{
 	background-repeat: no-repeat;
 	background-position: center center;
 	min-height: inherit;
+	    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 div#rowone{
@@ -245,9 +266,9 @@ strong#menu{
 		width: 100%;
 	}
 	h4#exceptions{
-		position: absolute;
+		/* position: absolute; */
 		margin-top: 0px;
-		left: 40%;
+		/* left: 40%; */
 	}
 	div.box{
 		height: 280px;
@@ -337,12 +358,8 @@ h5{
 }
 
 
-/* karimi +karis =something awesome */
-/* karimi +karis =something awesome */
-/* karimi +karis =something awesome */
-/* karimi +karis =something awesome */
-
-
+/* start */
+/* start */
 
 			.nav-tabs>li {
 	float: left;
@@ -384,9 +401,5 @@ h5{
 	}
 	h5{
 		font-size: 25px;
-	}/
-
-	/* karimi +karis =something awesome */
-	/* karimi +karis =something awesome */
-	/* karimi +karis =something awesome */
-	/* karimi +karis =something awesome */
+	}
+/* end */
